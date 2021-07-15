@@ -5,19 +5,22 @@
  */
 package paquete10;
 
-
-public class APINetflix implements APIMovie{
-    
-    private String apiKey;
+/**
+ *
+ * @author DELL
+ */
+public class APIDisney implements APIMovie{
+     private String apiKey;
     
     @Override
     public void establecerApiKey(String ak){
-        apiKey = ak+123123;
+        apiKey = ak+"1457896";
     }
     
     @Override
     public String obtenerApiKey(){
         return apiKey;
     }
+    
     
 }
